@@ -33,7 +33,7 @@ Med AWS Lambda kör jag en Json kod för praktiskt göra en API förfrågan frå
 * 8. 
 Amazon QuickSight är en snabb, molndriven business intelligence-tjänst som jag gör det enkelt att göra en visualisering och en korrelation på den datan jag har fått från min sensor och från API Openwheather
 
-* 9. (S3 AWS)
+* 9. (S3 AWS - för säkerheten)
 Amazon S3 är integrerat med AWS Backup, man kan använda för att centralt definiera säkerhetskopieringspolicyer för att skydda dina data i Amazon S3.
 Amazon S3-resurser till policyerna, automatiserar AWS Backup skapandet av Amazon S3-säkerhetskopior och lagrar säkerhetskopiorna säkert i ett krypterat säkerhetskopieringsvalv som du designar i din backup plan.
 Automatisera schemaläggning och lagring av säkerhetskopiering genom att centralt konfigurera säkerhetskopieringspolicyer.
