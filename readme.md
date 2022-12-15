@@ -8,13 +8,9 @@
 * 1 
 Jag använda mig utav DHT11 som har en Temp och Humidity sensor     
 
-<<<<<<< HEAD
+
 * 2. 
-- Använder en ESP8266 D1mini fick löda ihop lita pina för att få den att funka, en billig mikrokontroller som har inbyggt WiFi. 
-=======
-* 2
 Använder en ESP8266 D1mini fick löda ihop lita pina för att få den att funka, en billig mikrokontroller som har inbyggt WiFi. 
->>>>>>> 5a424aab363105df5c3decba621baa6c321cf50b
 
 * 3 
 Koden är skriven på arduino ide, koden kan ni se på (MainESP.ino, Secrets.h)
