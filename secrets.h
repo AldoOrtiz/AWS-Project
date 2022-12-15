@@ -2,12 +2,12 @@
  
 #define SECRET
  
-const char WIFI_SSID[] = "Virus";               //TAMIM2.4G
-const char WIFI_PASSWORD[] = "Datasal123";           //0544287380
+const char WIFI_SSID[] = "Virus";               
+const char WIFI_PASSWORD[] = "Datasal123";         
  
 #define THINGNAME "ESPDHT"
  
-int8_t TIME_ZONE = -5; //NYC(USA): -5 UTC
+int8_t TIME_ZONE = -5; 
  
 const char MQTT_HOST[] = "a1nknfefvgm0em-ats.iot.us-east-1.amazonaws.com";
  

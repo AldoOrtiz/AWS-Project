@@ -1,4 +1,4 @@
-
+# AWS-Project
 ### Arkitektur 
 
 <img src="/img/espbild.jpg">
@@ -9,7 +9,7 @@
 Jag använda mig utav DHT11 som har en Temp och Humidity sensor     
 
 * 2. 
-Använder en ESP8266 D1mini fick löda ihop lita pina för att få den att funka, en billig mikrokontroller som har inbyggt WiFi. 
+- Använder en ESP8266 D1mini fick löda ihop lita pina för att få den att funka, en billig mikrokontroller som har inbyggt WiFi. 
 
 * 3. 
 Koden är skriven på arduino ide, koden kan ni se på (MainESP.ino, Secrets.h)
@@ -33,6 +33,11 @@ Med AWS Lambda kör jag en Json kod för praktiskt göra en API förfrågan frå
 * 8. 
 Amazon QuickSight är en snabb, molndriven business intelligence-tjänst som jag gör det enkelt att göra en visualisering och en korrelation på den datan jag har fått från min sensor och från API Openwheather
 
+* 9. (S3 AWS)
+Amazon S3 är integrerat med AWS Backup, man kan använda för att centralt definiera säkerhetskopieringspolicyer för att skydda dina data i Amazon S3.
+Amazon S3-resurser till policyerna, automatiserar AWS Backup skapandet av Amazon S3-säkerhetskopior och lagrar säkerhetskopiorna säkert i ett krypterat säkerhetskopieringsvalv som du designar i din backup plan.
+Automatisera schemaläggning och lagring av säkerhetskopiering genom att centralt konfigurera säkerhetskopieringspolicyer.
+
 
 
 ## **Målet med projektet**
@@ -40,4 +45,19 @@ Amazon QuickSight är en snabb, molndriven business intelligence-tjänst som jag
 
 Målet med detta projekt är att demonstrera hur man ansluter en ESP8266 mikrokontroller med DHT11 till AWS Iot-core för datalagring. ESP8266 samlar in temperaturdata från en sensor och skickar den till AWS Iot-core, som sedan lagrar data i DynamoDB i tables. Därifrån kan data nås och visualiseras med Quick seight, som referens Openwheather väderdata från närmaste station till sensorn lagras i Quick seight så jämförelser kan göras.
 
-# AWS-Project
+
+## **Visualisering med quicksight AWS**
+
+<img src="/img/projdht.jpg">
+
+## **Hårdvara kopplad med AWS**
+
+<img src="/img/proj.jpg">
+
+
+ESP8266 D1 mini
+Temperatur- och luftfuktighetssensor (DHT11)
+Breadboard
+3 kablar hona till hane
+
+
