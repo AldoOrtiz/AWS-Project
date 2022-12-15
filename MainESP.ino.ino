@@ -11,7 +11,7 @@
 //#define DHTPIN D2
 //#define DHTTYPE DHT11
 
-//DHT dht(DHTPIN, DHTTYPE);
+//DHT dht(DHTPIN, DHTTYPE); 
  
 float h;
 float t;
