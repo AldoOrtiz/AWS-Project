@@ -9,7 +9,7 @@
 Jag använda mig utav DHT11 som har en Temp och Humidity sensor     
 
 
-* 2. 
+* 2 
 Använder en ESP8266 D1mini fick löda ihop lita pina för att få den att funka, en billig mikrokontroller som har inbyggt WiFi. 
 
 * 3 
